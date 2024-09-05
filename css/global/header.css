@@ -7,10 +7,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding: 20px;
-  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
   gap: 20px;
 }
 
@@ -26,7 +24,7 @@
   position: relative;
 }
 
-.header-menu a:after {
+.header-menu a::after {
   transition: 0.3s;
   content: '';
   display: block;
@@ -37,7 +35,7 @@
   position: absolute;
 }
 
-.header-menu a:hover:after {
+.header-menu a:hover::after {
   width: 100%;
 }
 
